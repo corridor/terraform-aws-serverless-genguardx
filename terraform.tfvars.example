@@ -1,0 +1,9 @@
+image           = "204697011894.dkr.ecr.us-west-2.amazonaws.com/corridor/ggx-sandbox:latest"
+hostname        = "genguardx.example.com"
+certificate_arn = "arn:aws:acm:us-west-2:123456789012:certificate/replace-me"
+
+database_url = "postgresql://user:password@db.example.internal:5432/genguardx"
+license_key  = "replace-me"
+
+smtp_username = "admin@genguardx.ai"
+smtp_password = "replace-me"
