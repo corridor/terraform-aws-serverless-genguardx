@@ -38,10 +38,6 @@ locals {
       value = "['otp', 'password']"
     },
     {
-      name  = "CORRIDOR_SENTRY_CONFIG__environment"
-      value = var.environment_name
-    },
-    {
       name  = "CORRIDOR_NOTIFICATION_PROVIDERS__email__from"
       value = var.smtp_from
     },

@@ -9,21 +9,16 @@ variable "name" {
 }
 
 variable "cluster_name" {
-  type    = string
-  default = "owapplications-cluster"
+  type = string
 }
 
 variable "vpc_id" {
-  type    = string
-  default = "vpc-1a77f87c"
+  type = string
 }
 
 variable "public_subnet_ids" {
-  type = list(string)
-  default = [
-    "subnet-39ed8362",
-    "subnet-2b718363",
-  ]
+  type    = list(string)
+  default = []
 }
 
 variable "assign_public_ip" {
@@ -83,11 +78,6 @@ variable "smtp_port" {
 variable "smtp_ssl" {
   type    = bool
   default = true
-}
-
-variable "environment_name" {
-  type    = string
-  default = "owapplications"
 }
 
 variable "desired_count" {
