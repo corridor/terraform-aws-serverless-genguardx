@@ -1,4 +1,4 @@
-# terraform-aws-serverless-genguardx
+# terraform-aws-serverless-ggx
 
 Terraform for running GenGuardX on AWS with ECS Fargate.
 
